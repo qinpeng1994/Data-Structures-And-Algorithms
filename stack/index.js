@@ -1,6 +1,5 @@
 
 // 栈结构
-(function(){
   class Stack {
     constructor() {
         this.container = []
@@ -22,6 +21,4 @@
     }
   }
   
-  let sk = new Stack()
-  console.log(sk,'sk')
-})()
+ export default Stack
